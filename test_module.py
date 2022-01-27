@@ -93,7 +93,7 @@ class UnitTests(unittest.TestCase):
         self.assertAlmostEqual(
             actual, expected, 2,
             "Expected `split_bill` to return 12.20 to 2 decimal places."
-        )
+       )
 
 
 if __name__ == "__main__":
